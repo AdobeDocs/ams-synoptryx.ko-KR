@@ -1,5 +1,5 @@
 ---
-title: ' [!DNL Synoptryx](으)로 APM(응용 프로그램 성능 모니터링)'
+title: ' [!DNL Synoptryx] (으)로 APM(응용 프로그램 성능 모니터링)'
 description: ' [!DNL Synoptryx] APM 플러그인을 사용하여 AEM 트랜잭션을 추적하고, JVM을 모니터링하고, 트랜잭션을 분석하고, AEM Managed Services에서 트랜잭션 추적 및 외부 서비스를 검사합니다.'
 feature: Operations
 role: Admin
