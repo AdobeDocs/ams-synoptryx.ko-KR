@@ -1,23 +1,23 @@
 ---
-title: Synoptryx를 사용한 APM(응용 프로그램 성능 모니터링)
-description: Synoptryx APM 플러그인을 사용하여 AEM 트랜잭션을 추적하고, JVM을 모니터링하고, 트랜잭션을 분석하고, AEM Managed Services에서 트랜잭션 추적 및 외부 서비스를 검사합니다.
+title: ' [!DNL Synoptryx] (으)로 APM(응용 프로그램 성능 모니터링)'
+description: ' [!DNL Synoptryx] APM 플러그인을 사용하여 AEM 트랜잭션을 추적하고, JVM을 모니터링하고, 트랜잭션을 분석하고, AEM Managed Services에서 트랜잭션 추적 및 외부 서비스를 검사합니다.'
 feature: Operations
 role: Admin
-source-git-commit: 883b68e3bc57ba6b55559560a967a6dbc553262a
+source-git-commit: 12876ba185fd6d155f02639fba9601a3616c7e90
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1078'
 ht-degree: 5%
 
 ---
 
 
-# Synoptryx를 사용한 APM(응용 프로그램 성능 모니터링) {#application-performance-monitoring}
+# [!DNL Synoptryx]을(를) 사용한 APM(응용 프로그램 성능 모니터링) {#application-performance-monitoring}
 
-Synoptryx APM(Application Performance Monitoring)은 Adobe Experience Manager(AEM) 성능 및 최종 사용자 환경에 대한 실시간 및 내역 insight을 제공합니다. 엔드 투 엔드 트랜잭션 추적, 차트 및 보고서를 통해 Java 코드 수준까지 애플리케이션 동작을 파악할 수 있습니다.
+[!DNL Synoptryx] APM(Application Performance Monitoring)은 Adobe [!DNL Experience Manager]&#x200B;(AEM) 성능 및 최종 사용자 환경에 실시간 및 내역 insight을 제공합니다. 엔드 투 엔드 트랜잭션 추적, 차트 및 보고서를 통해 Java 코드 수준까지 애플리케이션 동작을 파악할 수 있습니다.
 
-## Managed Services Synoptryx APM 플러그인 {#apm-plugin}
+## Managed Services [!DNL Synoptryx] APM 플러그인 {#apm-plugin}
 
-AEM은 Apache Sling 및 Jackrabbit Oak을 기반으로 구축된 Apache Felix OSGi 모듈을 사용하여 Jetty에서 Java 애플리케이션으로 실행됩니다. Adobe Managed Services, AEM 엔지니어링 및 Synoptrix Engineering은 Managed Services 환경을 위한 맞춤형 계기를 공동으로 개발했습니다.
+AEM은 Apache Sling 및 Jackrabbit Oak을 기반으로 구축된 Apache Felix OSGi 모듈을 사용하여 Jetty에서 Java 애플리케이션으로 실행됩니다. Adobe Managed Services, AEM 엔지니어링 및 [!DNL Synoptryx] 엔지니어링은 Managed Services 환경을 위한 사용자 지정 계측을 공동으로 개발했습니다.
 
 이 계측에서는 다음을 수집합니다.
 
@@ -29,7 +29,7 @@ AEM은 Apache Sling 및 Jackrabbit Oak을 기반으로 구축된 Apache Felix OS
 
 ![중첩된 AEM 구성 요소 범위 및 페이지 요청에 대한 실행 타임라인을 보여 주는 Synoptryx APM 추적 보기](assets/image19.png)
 
-## Synoptryx APM 사용 {#using-apm}
+## [!DNL Synoptryx] APM 사용 {#using-apm}
 
 최종 사용자에게 영향을 미치기 전에 APM을 사용하여 애플리케이션 문제를 찾으십시오. 작성자 및 게시는 코드베이스를 공유하지만 **개별 APM 응용 프로그램**(으)로 모니터링되므로 각 계층을 독립적으로 분석할 수 있습니다.
 
@@ -38,7 +38,7 @@ AEM은 Apache Sling 및 Jackrabbit Oak을 기반으로 구축된 Apache Felix OS
 - 작성자용 APM 애플리케이션 1개
 - 게시용 APM 애플리케이션 1개
 
-Synoptryx APM에서 애플리케이션 이름을 선택하여 개요 및 모니터링 대시보드를 엽니다.
+[!DNL Synoptryx] APM에서 응용 프로그램 이름을 선택하여 개요 및 모니터링 대시보드를 엽니다.
 
 ![작성자 및 게시 응용 프로그램을 표시하는 Synoptryx APM 응용 프로그램 목록](assets/image1a.png)
 
@@ -70,7 +70,7 @@ Synoptryx APM에서 애플리케이션 이름을 선택하여 개요 및 모니�
 
 ### 설명
 
-**개요** 섹션에는 모니터링되는 응용 프로그램의 현재 상태를 요약하는 높은 수준의 KPI(주요 성능 지표)가 표시됩니다.
+**[!UICONTROL 개요]** 섹션에는 모니터링되는 응용 프로그램의 현재 상태를 요약하는 높은 수준의 KPI(주요 성능 지표)가 표시됩니다.
 
 이러한 KPI는 애플리케이션 작업, 처리량, 요청 성공 및 전체 사용자 경험에 대한 요약 정보를 제공합니다.
 
