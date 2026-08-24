@@ -1,5 +1,5 @@
 ---
-title: ' [!DNL Synoptryx](으)로 AEM Managed Services 환경 모니터링'
+title: ' [!DNL Synoptryx] (으)로 AEM Managed Services 환경 모니터링'
 description: Adobe에서 모니터링 [!DNL Synoptryx] Managed Services에 대한 개요 [!DNL Experience Manager] Adobe이 모니터링하는 항목, 계정 설정 방법 및 팀에 대한 액세스 방법.
 feature: Operations
 role: Admin
