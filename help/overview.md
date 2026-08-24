@@ -1,9 +1,9 @@
 ---
-title: ' [!DNL Synoptryx] (으)로 AEM Managed Services 환경 모니터링'
+title: ' [!DNL Synoptryx](으)로 AEM Managed Services 환경 모니터링'
 description: Adobe에서 모니터링 [!DNL Synoptryx] Managed Services에 대한 개요 [!DNL Experience Manager] Adobe이 모니터링하는 항목, 계정 설정 방법 및 팀에 대한 액세스 방법.
 feature: Operations
 role: Admin
-source-git-commit: e8de2213d91e09da68a8f7014b075f81bd7f07ef
+source-git-commit: c79ae46b8ab4f6aab02821bc4446e04a94670aef
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -66,4 +66,3 @@ CSE가 계정을 프로비저닝하면 [synoptryx.adobecqms.net](https://synoptr
 
 - [APM(응용 프로그램 성능 모니터링)](application-performance-monitoring.md) - AEM 트랜잭션을 추적하고 JVM 동작을 분석하며 외부 서비스를 검사합니다.
 - [인프라 모니터링](infrastructure-monitoring.md) - 호스트 수준 시스템, 네트워크, 프로세스 및 저장소 지표를 검토합니다.
-
