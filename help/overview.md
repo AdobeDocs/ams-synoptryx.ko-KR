@@ -3,9 +3,9 @@ title: Observability Insights를 사용하여 AEM Managed Services 환경 모니
 description: 여기에서 AEM Managed Services의 Observability Insights가 다루는 내용, 대상 및 이 안내서의 나머지 부분을 탐색하는 방법을 이해할 수 있습니다.
 feature: Operations
 role: Admin
-source-git-commit: 94ba857f5b6a5c33483e4d49f5a1daa9583b6347
+source-git-commit: 440f182902d797a91b584fe1bac7f2b417f30ebe
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Observability Insights를 사용하여 AEM Managed Services 환경 모니터링 {#observability-insights-monitoring}
 
-가시성 인사이트는 별도의 모니터링 플랫폼 없이도 Adobe Experience Manager Managed Services의 애플리케이션 성능, 인프라 상태 및 서비스 동작에 대한 가시성을 제공합니다.
+**Observability Insights**&#x200B;에서는 별도의 모니터링 플랫폼을 사용하지 않고도 AEM Managed Services의 애플리케이션 성능, 인프라 상태 및 서비스 동작에 대한 가시성을 제공합니다.
 
-서비스 안정성, 사고 대응 또는 성능 분석을 담당하는 경우 Observability Insights를 통해 증상에서 증거로 신속하게 이동할 수 있습니다. 애플리케이션 원격 분석 및 호스트 수준 상태 신호를 결합하여 고객 팀과 Adobe Managed Services이 공유된 운영 보기에서 문제를 조사할 수 있도록 합니다.
+서비스 안정성, 인시던트 응답 또는 성능 분석에 대한 책임이 있는 경우 **가시성 인사이트**&#x200B;를 사용하면 증상에서 증거로 신속하게 이동할 수 있습니다. 애플리케이션 원격 분석과 호스트 수준 상태 신호를 결합하여 고객 팀과 Adobe이 공유된 운영 보기에서 문제를 조사할 수 있도록 합니다.
 
 ## 팀이 Observability Insights를 사용하는 이유 {#why-teams-use-observability-insights}
 

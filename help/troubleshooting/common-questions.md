@@ -3,9 +3,9 @@ title: FAQ
 description: AEM Managed Services의 Observability Insights에 대한 일반적인 질문 및 조사 시작점.
 feature: Operations
 role: Admin
-source-git-commit: 3e9cd3734665dc06a4b90902b229dffb8f5421df
+source-git-commit: 68b80f99e8be9deed37ea857d1dc7cb0ba3ec94d
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,6 @@ ht-degree: 0%
 ## 문제가 애플리케이션 또는 인프라와 관련이 있는지 어떻게 판단합니까? {#application-or-infrastructure}
 
 [응용 프로그램 성능 모니터링](/help/applications.md)(으)로 시작하여 작성자 또는 게시의 요청 속도, 오류율 및 지연을 검토합니다. 응용 프로그램 신호가 높아진 경우 [호스트](/help/hosts.md)를 사용하여 호스트 수준 리소스 압력(CPU, 메모리, 디스크 또는 네트워크)이 현재 보고 있는 내용을 설명하는지 또는 조합하는지 확인하십시오.
-
-## 특정 그래프 또는 지표를 이해하려면 어떻게 해야 합니까? {#understand-graph-or-metric}
-
-패널별 설명, 지표 이름, 단위 및 스크린샷에 대시보드 참조 페이지를 사용합니다.
-
-- [APM 대시보드 참조](../reference/apm-dashboard-reference.md)
-- [인프라 대시보드 참조](../reference/infrastructure-dashboard-reference.md)
 
 ## 가시성 인사이트는 실제로 어떤 데이터를 수집합니까? {#what-data-is-collected}
 
