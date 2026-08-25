@@ -1,76 +1,33 @@
 ---
-title: ' [!DNL Synoptryx] (으)로 APM(응용 프로그램 성능 모니터링)'
-description: ' [!DNL Synoptryx] APM 플러그인을 사용하여 AEM 트랜잭션을 추적하고, JVM을 모니터링하고, 트랜잭션을 분석하고, AEM Managed Services에서 트랜잭션 추적 및 외부 서비스를 검사합니다.'
+title: APM 대시보드 참조
+description: 스크린샷, 지표 및 단위를 포함한 Observability Insights APM 대시보드에 대한 패널별 참조.
 feature: Operations
 role: Admin
-source-git-commit: 12876ba185fd6d155f02639fba9601a3616c7e90
+source-git-commit: 1d54a6a398360b040221db5b2780d301722894bf
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 5%
+source-wordcount: '806'
+ht-degree: 7%
 
 ---
 
 
-# [!DNL Synoptryx]을(를) 사용한 APM(응용 프로그램 성능 모니터링) {#application-performance-monitoring}
+# APM 대시보드 참조 {#apm-dashboard-reference}
 
-[!DNL Synoptryx] APM(Application Performance Monitoring)은 Adobe [!DNL Experience Manager]&#x200B;(AEM) 성능 및 최종 사용자 환경에 실시간 및 내역 insight을 제공합니다. 엔드 투 엔드 트랜잭션 추적, 차트 및 보고서를 통해 Java 코드 수준까지 애플리케이션 동작을 파악할 수 있습니다.
-
-## Managed Services [!DNL Synoptryx] APM 플러그인 {#apm-plugin}
-
-AEM은 Apache Sling 및 Jackrabbit Oak을 기반으로 구축된 Apache Felix OSGi 모듈을 사용하여 Jetty에서 Java 애플리케이션으로 실행됩니다. Adobe Managed Services, AEM 엔지니어링 및 [!DNL Synoptryx] 엔지니어링은 Managed Services 환경을 위한 사용자 지정 계측을 공동으로 개발했습니다.
-
-이 계측에서는 다음을 수집합니다.
-
-- **의미 있는 트랜잭션 이름 지정** — Sling 확장은 트랜잭션 이름을 페이지 구조에 맞게 정렬하고 Insights 이벤트에 `requestURL` 특성을 추가하므로 Sling URL을 대시보드에서 상호 연관시킬 수 있습니다.
-
-![Sling 상태 검사 경로 및 스팬 타임라인이 있는 수사적 AEM 트랜잭션 이름을 보여 주는 Synoptryx APM 추적 보기](assets/image19a.png)
-
-- **JCR 계측** - 저장소 수준 작업(XPath 및 JCR-SQL2 포함)이 분류되고 APM의 데이터베이스 섹션에 있는 트랜잭션 추적에 연결됩니다.
-
-![중첩된 AEM 구성 요소 범위 및 페이지 요청에 대한 실행 타임라인을 보여 주는 Synoptryx APM 추적 보기](assets/image19.png)
-
-## [!DNL Synoptryx] APM 사용 {#using-apm}
-
-최종 사용자에게 영향을 미치기 전에 APM을 사용하여 애플리케이션 문제를 찾으십시오. 작성자 및 게시는 코드베이스를 공유하지만 **개별 APM 응용 프로그램**(으)로 모니터링되므로 각 계층을 독립적으로 분석할 수 있습니다.
-
-모든 Managed Services 환경은 다음을 포함합니다.
-
-- 작성자용 APM 애플리케이션 1개
-- 게시용 APM 애플리케이션 1개
-
-[!DNL Synoptryx] APM에서 응용 프로그램 이름을 선택하여 개요 및 모니터링 대시보드를 엽니다.
-
-![작성자 및 게시 응용 프로그램을 표시하는 Synoptryx APM 응용 프로그램 목록](assets/image1a.png)
-
-## 대시보드 섹션
-
-응용 프로그램 성능 관리 대시보드에는 다음 섹션이 포함되어 있습니다.
-
-- 개요
-- 빨간색 지표(비율 및 오류 · 기간)
-- 트래픽
-- 지연 시간 및 성능
-- 오류 세부 정보
-- 상위 트랜잭션
-- JVM 상태
-- JVM 메모리
-- 가비지 수집
-
-이 안내서에는 아래에 표시된 섹션만 설명되어 있습니다.
+이 참조는 AEM Managed Services에서 사용되는 기본 Observability Insights APM 패널을 설명합니다.
 
 ## 대시보드 탐색
 
-![대시보드 탐색](assets/apm/1_opening_screen.png)
+![대시보드 탐색](../assets/apm/1_opening_screen.png)
 
 대시보드는 관련 애플리케이션 성능 지표를 그룹화하는 확장 가능한 섹션으로 구성됩니다. 섹션을 확장하면 해당 카테고리와 연결된 하나 이상의 차트가 표시됩니다.
 
 ## 개요
 
-![개요](assets/apm/1.1_apm_overview.png)
+![개요](../assets/apm/1.1_apm_overview.png)
 
 ### 설명
 
-**[!UICONTROL 개요]** 섹션에는 모니터링되는 응용 프로그램의 현재 상태를 요약하는 높은 수준의 KPI(주요 성능 지표)가 표시됩니다.
+**개요** 섹션에는 모니터링되는 응용 프로그램의 현재 상태를 요약하는 높은 수준의 KPI(주요 성능 지표)가 표시됩니다.
 
 이러한 KPI는 애플리케이션 작업, 처리량, 요청 성공 및 전체 사용자 경험에 대한 요약 정보를 제공합니다.
 
@@ -144,7 +101,7 @@ RED 방법론은 애플리케이션의 세 가지 주요 특성을 측정합니�
 
 ### 요청 비율
 
-![요청 속도](assets/apm/2_red_metrics_request_rate.png)
+![요청 속도](../assets/apm/2_red_metrics_request_rate.png)
 
 #### 설명
 
@@ -171,7 +128,7 @@ req_min
 
 ### 오류율
 
-![오류율](assets/apm/3_error_rate.png)
+![오류율](../assets/apm/3_error_rate.png)
 
 #### 설명
 
@@ -199,7 +156,7 @@ error_pct (1h ago)
 
 ### 요청 기간
 
-![요청 기간](assets/apm/4_request_duration_p50_p95.png)
+![요청 기간](../assets/apm/4_request_duration_p50_p95.png)
 
 #### 설명
 
@@ -242,7 +199,7 @@ P90
 
 ### HTTP 상태 코드별 요청
 
-![상태 코드별 요청](assets/apm/5_requests_by_status_code.png)
+![상태 코드별 요청](../assets/apm/5_requests_by_status_code.png)
 
 #### 설명
 
@@ -277,7 +234,7 @@ req_s 500
 
 ### 끝점별 요청 속도
 
-끝점별 ![요청 속도](assets/apm/6_request_rate_by_end_point.png)
+끝점별 ![요청 속도](../assets/apm/6_request_rate_by_end_point.png)
 
 #### 설명
 
@@ -306,7 +263,7 @@ endpoint_request_rate
 
 ### 응답 시간 — P95와 1시간
 
-![응답 시간 P95](assets/apm/7_response_time_p95_1h.png)
+![응답 시간 P95](../assets/apm/7_response_time_p95_1h.png)
 
 #### 설명
 
@@ -334,7 +291,7 @@ P95 (1 Hour Ago)
 
 ### 시간 경과에 따른 APDEX 점수
 
-![APDEX](assets/apm/8_apdex_score_overtime.png)
+![APDEX](../assets/apm/8_apdex_score_overtime.png)
 
 #### 설명
 
@@ -360,7 +317,7 @@ APDEX Score
 
 ### 처리량과 P95 지연
 
-![처리량과 대기 시간 비교](assets/apm/9_throughput_vs_p95latency.png)
+![처리량과 대기 시간 비교](../assets/apm/9_throughput_vs_p95latency.png)
 
 #### 설명
 
@@ -388,11 +345,11 @@ P95 Latency
 - 시계열 지연
 - 이중 지표 비교
 
-## 오류 세부 정보
+## 오류 세부 사항
 
 ### 상태 그룹별 오류율 %
 
-![상태 그룹별 오류율](assets/apm/10_error_rate_pct_by_status_group.png)
+![상태 그룹별 오류율](../assets/apm/10_error_rate_pct_by_status_group.png)
 
 #### 설명
 
@@ -424,10 +381,9 @@ Combined Error Trend
 - 평균 오차 백분율
 - 시계열 트렌드
 
-
 ### 오류율 트렌드 — 이제 와 1시간 전
 
-![오류 비율 1시간](assets/apm/11_error_ratio_trend_1h.png)
+![오류 비율 1시간](../assets/apm/11_error_ratio_trend_1h.png)
 
 #### 설명
 
@@ -452,7 +408,7 @@ Current Error Ratio
 
 ### 오류율 트렌드 — 이제 와 6시간 전
 
-![오류 비율 6시간](assets/apm/12_error_ratio_trend_6h.png)
+![오류 비율 6시간](../assets/apm/12_error_ratio_trend_6h.png)
 
 #### 설명
 

@@ -1,19 +1,19 @@
 ---
-title: ' [!DNL Synoptryx]을(를) 사용한 인프라 모니터링'
-description: ' [!DNL Synoptryx] 인프라 모니터링을 사용하여 AEM Managed Services 설치 공간에서 호스트 수준 시스템, 네트워크, 프로세스 및 스토리지 지표를 검토합니다.'
+title: 인프라 대시보드 참조
+description: 스크린샷, 지표 및 단위를 포함한 Observability Insights 인프라 대시보드에 대한 패널별 참조.
 feature: Operations
 role: Admin
-source-git-commit: 12876ba185fd6d155f02639fba9601a3616c7e90
+source-git-commit: 1d54a6a398360b040221db5b2780d301722894bf
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1091'
 ht-degree: 7%
 
 ---
 
 
-# 호스트 인프라 모니터링 대시보드
+# 인프라 대시보드 참조 {#infrastructure-dashboard-reference}
 
-이 섹션에서는 인프라 모니터링 대시보드에 표시되는 각 호스트 수준 인프라 모니터링 그래프에 대해 설명합니다. 각 섹션에서는 지표의 목적, 수집 중인 데이터, 측정 단위 및 시각화에 제시된 정보에 대해 설명합니다.
+이 참조는 AEM Managed Services용 Observability Insights에 사용되는 호스트 수준 인프라 패널에 대해 설명합니다.
 
 ## 대시보드 개요
 
@@ -32,11 +32,11 @@ ht-degree: 7%
 
 ## &#x200B;1. 호스트 CPU 사용률
 
-![CPU 사용률 호스팅](assets/host-monitoring/host_cpu_utilization.png)
+![CPU 사용률 호스팅](../assets/host-monitoring/host_cpu_utilization.png)
 
 ### 설명
 
-**[!UICONTROL 호스트 CPU 사용률]** 패널에는 운영 체제와 시간이 지남에 따라 실행 중인 모든 프로세스에서 현재 사용하고 있는 CPU 리소스의 비율이 표시됩니다.
+**호스트 CPU 사용률** 패널에는 운영 체제와 시간이 지남에 따라 실행 중인 모든 프로세스에서 현재 사용하고 있는 CPU 리소스의 비율이 표시됩니다.
 
 이 지표는 호스트 전체의 전체 CPU 사용을 나타내며 프로세서 활동의 시계열 시각화를 제공합니다.
 
@@ -71,11 +71,11 @@ ht-degree: 7%
 
 ## &#x200B;2. 호스트 디스크 I/O
 
-![호스트 디스크 I/O](assets/host-monitoring/host_disk_io.png)
+![호스트 디스크 I/O](../assets/host-monitoring/host_disk_io.png)
 
 ### 설명
 
-**[!UICONTROL 호스트 디스크 I/O]** 패널에 호스트에서 수행한 디스크 읽기 및 디스크 쓰기 작업에 대한 저장소 처리량이 표시됩니다.
+**호스트 디스크 I/O** 패널에 호스트에서 수행한 디스크 읽기 및 디스크 쓰기 작업에 대한 저장소 처리량이 표시됩니다.
 
 그래프는 운영 체제와 저장 장치 간에 전송되는 데이터를 나타내는 두 개의 독립적인 시계열을 나타낸다.
 
@@ -109,11 +109,11 @@ ht-degree: 7%
 
 ## &#x200B;3. 호스트 네트워크 I/O
 
-![네트워크 I/O 호스팅](assets/host-monitoring/host_network_io.png)
+![네트워크 I/O 호스팅](../assets/host-monitoring/host_network_io.png)
 
 ### 설명
 
-**[!UICONTROL 호스트 네트워크 I/O]** 패널에 시간이 지남에 따라 호스트가 보내고 받는 네트워크 트래픽 볼륨이 표시됩니다.
+**호스트 네트워크 I/O** 패널에 시간이 지남에 따라 호스트가 보내고 받는 네트워크 트래픽 볼륨이 표시됩니다.
 
 그래프는 데이터가 네트워크 인터페이스를 통해 흐르는 속도를 측정하고 네트워크 대역폭 사용량에 대한 가시성을 제공합니다.
 이 지표는 전체 네트워크 처리량을 나타냅니다.
@@ -152,11 +152,11 @@ ht-degree: 7%
 
 ## &#x200B;4. CPU I/O 대기
 
-![CPU I/O 대기](assets/host-monitoring/cpu_io_wait.png)
+![CPU I/O 대기](../assets/host-monitoring/cpu_io_wait.png)
 
 ### 설명
 
-**[!UICONTROL CPU I/O 대기]** 패널에 입력/출력 작업이 완료되기를 기다리는 동안 소요된 CPU 시간의 백분율이 표시됩니다.
+**CPU I/O 대기** 패널에 입력/출력 작업이 완료되기를 기다리는 동안 소요된 CPU 시간의 백분율이 표시됩니다.
 
 이 지표는 저장 장치 또는 기타 I/O 작업을 기다리는 동안 활성 프로세스가 차단되므로 발생하는 프로세서 유휴 시간을 나타냅니다.
 
@@ -189,11 +189,11 @@ ht-degree: 7%
 
 ## &#x200B;5. 스토리지 사용량
 
-![저장소 사용](assets/host-monitoring/storage_disk_usage.png)
+![저장소 사용](../assets/host-monitoring/storage_disk_usage.png)
 
 ### 설명
 
-**[!UICONTROL 저장소 사용량]** 패널에는 현재 모니터링되는 호스트에서 사용되는 전체 저장소 용량 비율이 표시됩니다.
+**저장소 사용량** 패널에는 현재 모니터링되는 호스트에서 사용되는 전체 저장소 용량 비율이 표시됩니다.
 
 그래프는 선택한 시간 간격 동안의 파일 시스템 용량 사용률에 대한 기록 보기를 제공합니다.
 
@@ -215,11 +215,11 @@ ht-degree: 7%
 
 ## &#x200B;6. 디스크 사용량
 
-![디스크 사용](assets/host-monitoring/storage_disk_usage.png)
+![디스크 사용](../assets/host-monitoring/storage_disk_usage.png)
 
 ### 설명
 
-**[!UICONTROL 디스크 사용량]** 패널에 마운트된 각 파일 시스템 또는 저장소 장치의 저장소 사용률이 표시됩니다.
+**디스크 사용량** 패널에 마운트된 각 파일 시스템 또는 저장소 장치의 저장소 사용률이 표시됩니다.
 
 각 행은 특정 블록 장치 또는 마운트된 파티션에 해당하며 현재 사용 중인 공간의 비율을 보고합니다.
 
@@ -248,11 +248,11 @@ ht-degree: 7%
 
 ## &#x200B;7. 호스트 CPU 로드 평균
 
-![호스트 CPU 로드 평균](assets/host-monitoring/host_cpu_load_average.png)
+![호스트 CPU 로드 평균](../assets/host-monitoring/host_cpu_load_average.png)
 
 ### 설명
 
-**[!UICONTROL 호스트 CPU 로드 평균]** 패널에 세 번의 롤링 기간 동안의 Linux 시스템 로드 평균이 표시됩니다.
+**호스트 CPU 로드 평균** 패널에 세 번의 롤링 기간 동안의 Linux 시스템 로드 평균이 표시됩니다.
 
 로드 평균은 CPU 사용률과 달리 실행 중이거나 CPU 예약 또는 I/O 완료를 기다리는 평균 프로세스 수를 나타냅니다.
 
@@ -289,11 +289,11 @@ ht-degree: 7%
 
 ## &#x200B;8. 호스트 메모리 사용
 
-![호스트 메모리 사용](assets/host-monitoring/host_memory_usage.png)
+![호스트 메모리 사용](../assets/host-monitoring/host_memory_usage.png)
 
 ### 설명
 
-**[!UICONTROL 호스트 메모리 사용량]** 패널에 운영 체제에서 현재 할당한 실제 시스템 메모리의 비율이 표시됩니다.
+**호스트 메모리 사용량** 패널에 운영 체제에서 현재 할당한 실제 시스템 메모리의 비율이 표시됩니다.
 
 이 지표는 실행 중인 모든 프로세스, 커널 메모리, 버퍼 및 캐시에 대한 전체 RAM 사용률을 나타냅니다.
 
