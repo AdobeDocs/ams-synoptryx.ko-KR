@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Adobe Managed Services 가시성 인사이트
 breadcrumb-title: 가시성 통찰력
 user-guide-description: Adobe Managed Services Observability Insights 설명서
-source-git-commit: 269d0b7e9895077b0ae7a573bdad5408ca15e612
+source-git-commit: 11251645ac8e11559209e0b421cc2cf4f9297c10
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '43'
 ht-degree: 9%
 
 ---
@@ -20,4 +20,5 @@ ht-degree: 9%
 - [가시성 인사이트 사용](/help/use-observability-insights.md)
 - [애플리케이션](/help/applications.md)
 - [호스트](/help/hosts.md)
+- [API 설명서](/help/api.md)
 - [자주 묻는 질문](/help/troubleshooting/common-questions.md)
