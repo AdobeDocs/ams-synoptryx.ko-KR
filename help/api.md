@@ -15,7 +15,7 @@ Observability Insights Public API를 사용하면 요청 개요, 서비스 카�
 
 > 이 문서 전체에서 `{{API_BASE_URL}}`을(를) Observability Insights 인스턴스의 API 호스트(예: `https://insights.adobecqms.net/`)로 바꾸십시오.
 
----
+&#x200B;---
 
 ## &#x200B;1. API 키 가져오기
 
@@ -26,7 +26,7 @@ API 키는 계정에 연결되어 있고 단일 조직에 범위가 지정된 �
 1. [Observability Insights 대시보드](https://insights.adobecqms.net/)에 로그인합니다.
 2. **API 키**→ 프로필 메뉴(오른쪽 상단)를 엽니다.
    ![API 키 메뉴](v2-assets/api-key.png)
-3. **API 키** 탭에서 **키 생성**을 클릭합니다.
+3. **API 키** 탭에서 **키 생성**&#x200B;을 클릭합니다.
    ![API 키 생성](v2-assets/api-key-gen.png)
 4. 수사적 이름(예: `CI pipeline`, `Grafana datasource`)을 지정하고, 범위를 지정할 조직을 선택한 다음 선택적으로 만료 날짜를 설정하십시오.
 5. **키 생성**&#x200B;을 클릭합니다. 키가 **once** 형식으로 표시됩니다.
@@ -48,7 +48,7 @@ API 키 섹션에는 조직, 생성 날짜, 만료 및 마지막으로 사용한
 - 키를 주기적으로 회전하고 더 이상 사용되지 않는 키를 취소합니다.
 - 키가 손상된 경우 **조직 설정 → API 키**&#x200B;에서 즉시 취소하고 대체 키를 생성하십시오.
 
----
+&#x200B;---
 
 ## &#x200B;2. 요청 인증
 
@@ -60,7 +60,7 @@ Authorization: Bearer synx_9pQ2v6f1WYbLZk3n0aRtEo4jXcHsVmDgUiPq7B8l1yc
 
 유효한 키가 없거나 만료/해지된 키가 있는 요청은 `401 Unauthorized`을(를) 받습니다. 세션 로그인(브라우저 쿠키/토큰)이 이 API에서 허용되는 **not**&#x200B;입니다.
 
----
+&#x200B;---
 
 ## &#x200B;3. 기본 개념
 
@@ -111,7 +111,7 @@ Retry-After: 60
 | `502 Bad Gateway` | 업스트림 쿼리 실패 — 안전하게 다시 시도 |
 | `503 Service Unavailable` | 일시적으로 데이터 백엔드를 사용할 수 없음 |
 
----
+&#x200B;---
 
 ## &#x200B;4. 엔드포인트
 
@@ -347,7 +347,7 @@ curl -s "{{API_BASE_URL}}/public/v1/pages?tenant_id=<tenant_id>&limit=50" \
 }
 ```
 
----
+&#x200B;---
 
 ## &#x200B;5. 이 API가 수행하지 않는 작업
 
@@ -355,7 +355,7 @@ curl -s "{{API_BASE_URL}}/public/v1/pages?tenant_id=<tenant_id>&limit=50" \
 - **상호 테넌트 쿼리가 없습니다.** 모든 요청의 범위가 정확히 하나의 `tenant_id`(으)로 지정되었습니다.
 - **쓰기 액세스 권한이 없습니다.** 공개 API는 읽기 전용입니다.
 
----
+&#x200B;---
 
 ## &#x200B;6. 지원
 
